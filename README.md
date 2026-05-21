@@ -28,8 +28,8 @@ This project documents the setup of a basic Active Directory home lab using Orac
 <h2>Lab Walk-Through:</h2>
 
 <p align="center">
-Launch the utility: <br/>
-<img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Check the Windows 11 network: <br/>
+<img src="https://i.imgur.com/1U3dpbm.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Select the disk:  <br/>

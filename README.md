@@ -1,22 +1,31 @@
-<h1>JWipe - Disk Sanitization</h1>
-
- ### [YouTube Demonstration](https://youtu.be/7eJexJVCqJo)
+<h1>Active Directory Home Lab/h1>
 
 <h2>Description</h2>
-Project consists of a simple PowerShell script that walks the user through "zeroing out" (wiping) any drives that are connected to the system. The utility allows you to select the target disk and choose the number of passes that are performed. The PowerShell script will configure a diskpart script file based on the user's selections and then launch Diskpart to perform the disk sanitization.
+This project documents the setup of a basic Active Directory home lab using Oracle VirtualBox, Windows Server 2019, and Windows 10. The lab demonstrates domain controller configuration, DHCP, DNS, NAT, PowerShell user automation, and domain-joined client administration
 <br />
 
 
-<h2>Languages and Utilities Used</h2>
+<h2>Technologies Used</h2>
 
-- <b>PowerShell</b> 
-- <b>Diskpart</b>
-
+- <b>Active Directory Domain Services (AD DS)</b>
+- <b>PowerShell</b>
+- <b>DHCP and DNS/b> 
 <h2>Environments Used </h2>
 
-- <b>Windows 10</b> (21H2)
+- <b>VMware Fusion</b>
+- <b>Windows 11</b> 
 
-<h2>Program walk-through:</h2>
+## Skills Practiced
+- Active Directory administration
+- User and group management
+- PowerShell scripting
+- Windows Server configuration
+- Networking fundamentals
+- DHCP and DNS configuration
+- System troubleshooting
+- Domain administration
+
+<h2>Lab Walk-Through:</h2>
 
 <p align="center">
 Launch the utility: <br/>

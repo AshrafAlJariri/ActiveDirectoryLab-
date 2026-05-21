@@ -9,7 +9,7 @@ This project documents the setup of a basic Active Directory home lab using Orac
 
 - <b>Active Directory Domain Services (AD DS)</b>
 - <b>PowerShell</b>
-- <b>DHCP and DNS/b> 
+- <b>DHCP and DNS</b> 
 <h2>Environments Used </h2>
 
 - <b>VMware Fusion</b>

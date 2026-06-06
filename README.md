@@ -112,14 +112,77 @@ After removing accidental deletion protection, I deleted the extra Organizationa
 
 <br />
 
-<h3 align="center">Step 5: Review Security Groups</h3>
+<h3 align="center">Step 5: Delegate Password Reset Permissions</h3>
 
 <p align="center">
-  <img src="YOUR_IMAGE_LINK_HERE" width="80%" alt="Active Directory security groups"/>
+  <img src="https://i.imgur.com/ODwnBoG.png" width="80%" alt="Select Delegate Control option"/>
 </p>
 
 <p style="background-color:#e8f4ff; padding:12px; border-left:4px solid #2f80ed; border-radius:6px;">
-I learned that security groups help administrators assign permissions to multiple users at once instead of managing permissions one user at a time.
+I right-clicked the <code>Sales</code> Organizational Unit and selected <code>Delegate Control</code>. 
+Delegation allows specific users to perform limited administrative tasks without giving them full administrator access.
+</p>
+
+<br />
+
+<p align="center">
+  <img src="https://i.imgur.com/a0r7cr9.png" width="80%" alt="Delegation of Control Wizard users and groups"/>
+</p>
+
+<p style="background-color:#e8f4ff; padding:12px; border-left:4px solid #2f80ed; border-radius:6px;">
+The Delegation of Control Wizard opened and asked me to select the users or groups that would receive delegated permissions.
+</p>
+
+<br />
+
+<p align="center">
+  <img src="https://i.imgur.com/uFZAeDO.png" width="80%" alt="Enter Phillip for delegation"/>
+</p>
+
+<p style="background-color:#e8f4ff; padding:12px; border-left:4px solid #2f80ed; border-radius:6px;">
+I entered the user <code>philip</code> and clicked <code>Check Names</code> to verify the account in Active Directory.
+</p>
+
+<br />
+
+<p align="center">
+  <img src="https://i.imgur.com/I6e3Y3H.png" width="80%" alt="Verified Phillip user account"/>
+</p>
+
+<p style="background-color:#e8f4ff; padding:12px; border-left:4px solid #2f80ed; border-radius:6px;">
+Active Directory verified the user account as <code>Phillip (phillip@thm.local)</code>.
+</p>
+
+<br />
+
+<p align="center">
+  <img src="https://i.imgur.com/bmtKoZX.png"" width="80%" alt="Phillip added to Delegation Wizard"/>
+</p>
+
+<p style="background-color:#e8f4ff; padding:12px; border-left:4px solid #2f80ed; border-radius:6px;">
+I added <code>Phillip</code> to the delegation list and continued to the next step.
+</p>
+
+<br />
+
+<p align="center">
+  <img src="https://i.imgur.com/O4usAMy.png"" width="80%" alt="Delegate password reset task"/>
+</p>
+
+<p style="background-color:#e8f4ff; padding:12px; border-left:4px solid #2f80ed; border-radius:6px;">
+I selected <code>Reset user passwords and force password change at next logon</code>. 
+This gives Phillip limited permission to help users with password issues.
+</p>
+
+<br />
+
+<p align="center">
+  <img src="https://i.imgur.com/wOCCj3j.png" width="80%" alt="Complete Delegation of Control Wizard"/>
+</p>
+
+<p style="background-color:#e8f4ff; padding:12px; border-left:4px solid #2f80ed; border-radius:6px;">
+I completed the Delegation of Control Wizard. 
+This confirmed that Phillip was delegated password reset permissions for the <code>Sales</code> Organizational Unit.
 </p>
 
 <br />
@@ -127,7 +190,7 @@ I learned that security groups help administrators assign permissions to multipl
 <h3 align="center">Step 6: Review Delegation</h3>
 
 <p align="center">
-  <img src="YOUR_IMAGE_LINK_HERE" width="80%" alt="Active Directory delegation"/>
+  <img src="https://i.imgur.com/wOCCj3j.png" width="80%" alt="Active Directory delegation"/>
 </p>
 
 <p style="background-color:#e8f4ff; padding:12px; border-left:4px solid #2f80ed; border-radius:6px;">

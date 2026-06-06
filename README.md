@@ -3,7 +3,7 @@
 <h2>Description</h2>
 
 <p>
-This project documents my learning from an Active Directory basics lab. 
+This project documents my learning from an Active Directory lab. 
 The lab demonstrates how Windows domains are used to centrally manage users, computers, groups, permissions, and security policies in a business environment.
 </p>
 
@@ -15,7 +15,8 @@ Through this lab, I learned about domain controllers, Active Directory users and
 
 <ul>
   <li><b>Active Directory Domain Services (AD DS)</b></li>
-  <li><b>Windows Domains</b></li>
+  <li><b>virtual machine</b></li>
+  <li><b>Windows Domain</b></li>
   <li><b>Domain Controllers</b></li>
   <li><b>Organizational Units (OUs)</b></li>
   <li><b>Security Groups</b></li>

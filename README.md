@@ -401,16 +401,17 @@ I tested the policy on a workstation and confirmed that access to Control Panel 
 <h2>Skills Demonstrated</h2>
 
 <ul>
-  <li>Understanding user and computer accounts</li>
-  <li>Understanding Windows domain environments</li>
-  <li>Reviewing basic account management</li>
-  <li>Learning how devices are organized in Active Directory</li>
-  <li>Understanding password reset delegation</li>
-  <li>Understanding centralized identity management</li>
-  <li>Understanding access control</li>
-  <li>Understanding least privilege</li>
-  <li>Understanding security policy enforcement</li>
-  <li>Understanding auditability of users and devices</li>
+  <li>Reviewed Active Directory domain structure</li>
+  <li>Created and organized Organizational Units (OUs)</li>
+  <li>Managed and disabled user accounts</li>
+  <li>Delegated password reset permissions</li>
+  <li>Reset a user password using delegated access</li>
+  <li>Moved computer objects into a Workstations OU</li>
+  <li>Updated password policy settings</li>
+  <li>Created and linked Group Policy Objects</li>
+  <li>Restricted Control Panel access using Group Policy</li>
+  <li>Configured automatic workstation lockout</li>
+</ul>
 </ul>
 
 <h2>Lessons Learned</h2>

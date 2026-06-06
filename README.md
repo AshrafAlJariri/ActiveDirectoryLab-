@@ -21,6 +21,8 @@ Through this lab, I learned about domain controllers, Active Directory users and
   <li><b>Organizational Units (OUs)</b></li>
   <li><b>Security Groups</b></li>
   <li><b>Group Policy</b></li>
+  <li><b>Authentication</b></li>
+  <li><b>Trees, Forests, and Trusts</b></li>
 </ul>
 
 <h2>Skills Practiced</h2>

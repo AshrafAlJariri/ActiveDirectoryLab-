@@ -64,26 +64,50 @@ This helped me understand how OUs are used to organize users and computers into 
 
 <br />
 
-<h3 align="center">Step 3: Review Active Directory Users and Computers</h3>
+<h3 align="center">Step 3: Manage Users in an Organizational Unit</h3>
 
 <p align="center">
-  <img src="YOUR_IMAGE_LINK_HERE" width="80%" alt="Active Directory users and computers"/>
+  <img src="https://i.imgur.com/MTUwg73.png" width="80%" alt="Managing users in an Organizational Unit"/>
+  <img src="https://i.imgur.com/1xejpql.png" width="80%" alt="Managing users in an Organizational Unit"/>
 </p>
 
 <p style="background-color:#e8f4ff; padding:12px; border-left:4px solid #2f80ed; border-radius:6px;">
-I reviewed how Active Directory stores and organizes users, computers, groups, and other domain objects.
+I opened an Organizational Unit in Active Directory Users and Computers and reviewed the user accounts inside it. 
+I also practiced disabling a user account, which is a common account management task in Active Directory.
 </p>
 
 <br />
 
-<h3 align="center">Step 4: Review Organizational Units</h3>
+<h3 align="center">Step 4: Enable Advanced Features to Delete an OU</h3>
 
 <p align="center">
-  <img src="YOUR_IMAGE_LINK_HERE" width="80%" alt="Organizational units in Active Directory"/>
+  <img src="https://i.imgur.com/2Y2ZWtV.png" width="80%" alt="Enable Advanced Features in Active Directory"/>
 </p>
 
 <p style="background-color:#e8f4ff; padding:12px; border-left:4px solid #2f80ed; border-radius:6px;">
-I learned that Organizational Units are used to organize users and computers into groups such as departments, teams, or device categories.
+I enabled <code>Advanced Features</code> in Active Directory Users and Computers. 
+This allowed me to view additional object settings needed to manage protected Organizational Units.
+</p>
+
+<br />
+
+<p align="center">
+  <img src="https://i.imgur.com/ANEjlts.png" width="80%" alt="Disable accidental deletion protection"/>
+</p>
+
+<p style="background-color:#e8f4ff; padding:12px; border-left:4px solid #2f80ed; border-radius:6px;">
+I opened the Organizational Unit properties and went to the <code>Object</code> tab. 
+Then I unchecked <code>Protect object from accidental deletion</code> so the extra OU could be removed.
+</p>
+
+<br />
+
+<p align="center">
+  <img src="https://i.imgur.com/h3gStDG.png" width="80%" alt="Delete Organizational Unit confirmation"/>
+</p>
+
+<p style="background-color:#e8f4ff; padding:12px; border-left:4px solid #2f80ed; border-radius:6px;">
+After removing accidental deletion protection, I deleted the extra Organizational Unit from Active Directory.
 </p>
 
 <br />

@@ -418,10 +418,9 @@ I tested the policy on a workstation and confirmed that access to Control Panel 
 <h2>Lessons Learned</h2>
 
 <p>
-This lab helped me understand how Active Directory is used to manage users, computers, permissions, and policies in a business environment. 
-I learned the purpose of domain controllers, organizational units, security groups, delegation, Group Policy, authentication, trees, forests, and trusts.
+This lab helped me better understand how Active Directory is used to manage users, computers, Organizational Units, and domain policies in a centralized environment.
 </p>
 
 <p>
-This project helped me connect technical Active Directory skills to real-world identity management, access control, least privilege, centralized administration, and policy enforcement.
+I also learned how delegation and Group Policy support real administrative tasks, such as resetting user passwords, enforcing password rules, restricting Control Panel access, and automatically locking inactive workstations.
 </p>

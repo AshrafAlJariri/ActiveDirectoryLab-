@@ -11,18 +11,19 @@ The lab demonstrates how Windows domains are used to centrally manage users, com
 Through this lab, I learned about domain controllers, Active Directory users and computers, organizational units, security groups, delegation, Group Policy, authentication, and domain structures such as trees, forests, and trusts.
 </p>
 
-<h2>Technologies and Concepts Used</h2>
-
+<h2>Technologies Used</h2>
 <ul>
-  <li><b>Active Directory Domain Services (AD DS)</b></li>
-  <li><b>virtual machine</b></li>
+<li><b>Virtual Window Machine</b></li>
+ </ul>
+
+ <h2>Concepts Used</h2>
+<ul>
+  <li><b>Active Directory Domain Services</b></li>
   <li><b>Windows Domain</b></li>
-  <li><b>Domain Controllers</b></li>
-  <li><b>Organizational Units (OUs)</b></li>
-  <li><b>Security Groups</b></li>
+  <li><b>Organizational Units</b></li>
   <li><b>Group Policy</b></li>
-  <li><b>Authentication</b></li>
-  <li><b>Trees, Forests, and Trusts</b></li>
+  <li><b>Delegation of Control</b></li>
+  <li><b>Password Policy</b></li>
 </ul>
 
 <h2>Skills Practiced</h2>

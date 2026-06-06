@@ -253,14 +253,44 @@ I verified that the workstation computer objects were successfully placed inside
 
 <br />
 
-<h3 align="center">Step 8: Review Authentication Concepts</h3>
+<h3 align="center">Step 8: Review and Update Group Policy Password Settings</h3>
 
 <p align="center">
-  <img src="YOUR_IMAGE_LINK_HERE" width="80%" alt="Authentication concepts"/>
+  <img src="https://i.imgur.com/PCCey8P.png" width="80%" alt="Edit Default Domain Policy"/>
 </p>
 
 <p style="background-color:#e8f4ff; padding:12px; border-left:4px solid #2f80ed; border-radius:6px;">
-I reviewed how authentication works in a Windows domain and how users prove their identity before accessing domain resources.
+I opened Group Policy Management and selected the option to edit the <code>Default Domain Policy</code>.
+</p>
+
+<br />
+
+<p align="center">
+  <img src="https://i.imgur.com/KFxM3KY.png" width="80%" alt="Review password policy settings"/>
+</p>
+
+<p style="background-color:#e8f4ff; padding:12px; border-left:4px solid #2f80ed; border-radius:6px;">
+Inside the Group Policy Management Editor, I reviewed the password policy settings under <code>Account Policies</code>.
+</p>
+
+<br />
+
+<p align="center">
+  <img src="https://i.imgur.com/6tCRlYy.png" width="80%" alt="Set minimum password length"/>
+</p>
+
+<p style="background-color:#e8f4ff; padding:12px; border-left:4px solid #2f80ed; border-radius:6px;">
+I changed the <code>Minimum password length</code> policy to require at least <code>10</code> characters.
+</p>
+
+<br />
+
+<p align="center">
+  <img src="https://i.imgur.com/28Vgk3W.png" width="80%" alt="Verify updated minimum password length"/>
+</p>
+
+<p style="background-color:#e8f4ff; padding:12px; border-left:4px solid #2f80ed; border-radius:6px;">
+I verified that the minimum password length setting was updated from <code>7 characters</code> to <code>10 characters</code>.
 </p>
 
 <br />

@@ -187,18 +187,29 @@ This confirmed that Phillip was delegated password reset permissions for the <co
 
 <br />
 
-<h3 align="center">Step 6: Review Delegation</h3>
+<h3 align="center">Step 6: Test Delegated Password Reset Permissions</h3>
 
 <p align="center">
-  <img src="https://i.imgur.com/wOCCj3j.png" width="80%" alt="Active Directory delegation"/>
+  <img src="https://i.imgur.com/O1q6BuI.png" width="80%" alt="Phillip resetting Sophie password with PowerShell"/>
 </p>
 
 <p style="background-color:#e8f4ff; padding:12px; border-left:4px solid #2f80ed; border-radius:6px;">
-I learned that delegation allows certain users or teams to perform limited administrative tasks, such as resetting passwords, without giving them full administrator access.
+I tested the delegated permissions by using <code>Phillip</code>, an IT support user, to reset <code>Sophie</code>'s account password with PowerShell. 
+This confirmed that Phillip had limited permission to perform password reset tasks without being a full domain administrator.
 </p>
 
 <br />
 
+<p align="center">
+  <img src="https://i.imgur.com/5n9Cxjh.png" width="80%" alt="Successful login after Sophie password reset"/>
+</p>
+
+<p style="background-color:#e8f4ff; padding:12px; border-left:4px solid #2f80ed; border-radius:6px;">
+I verified that Sophie’s account password was changed successfully by logging in with the updated account credentials. 
+This confirmed that the delegated password reset permissions worked correctly.
+</p>
+
+<br />
 <h3 align="center">Step 7: Review Group Policy</h3>
 
 <p align="center">

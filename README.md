@@ -41,7 +41,7 @@ Through this lab, I learned about domain controllers, Active Directory users and
 <h3 align="center">Step 1: Review Active Directory Users and Computers</h3>
 
 <p align="center">
-  <img src="https://imgur.com/PaLgTZJ" width="80%" alt="Active Directory Users and Computers"/>
+  <img src="https://i.imgur.com/PaLgTZJ.png" width="80%" alt="Active Directory Users and Computers"/>
 </p>
 
 <p style="background-color:#e8f4ff; padding:12px; border-left:4px solid #2f80ed; border-radius:6px;">

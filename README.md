@@ -41,7 +41,7 @@ Through this lab, I learned about domain controllers, Active Directory users and
 <h3 align="center">Step 1: Review Active Directory Users and Computers</h3>
 
 <p align="center">
-  <img src="https://i.imgur.com/PaLgTZJ.png" width="80%" alt="Active Directory Users and Computers"/>
+  <img src="https://i.imgur.com/keyDRiK.png" width="80%" alt="Active Directory Users and Computers"/>
 </p>
 
 <p style="background-color:#e8f4ff; padding:12px; border-left:4px solid #2f80ed; border-radius:6px;">
@@ -51,14 +51,15 @@ This showed the main containers and organizational units, including users, compu
 
 <br />
 
-<h3 align="center">Step 2: Review Domain Controllers</h3>
+<h3 align="center">Step 2: Review Organizational Units</h3>
 
 <p align="center">
-  <img src="YOUR_IMAGE_LINK_HERE" width="80%" alt="Domain controller concept"/>
+  <img src="https://i.imgur.com/Rr7n3xr.png" width="80%" alt="Creating an Organizational Unit in Active Directory"/>
 </p>
 
 <p style="background-color:#e8f4ff; padding:12px; border-left:4px solid #2f80ed; border-radius:6px;">
-I learned that a domain controller is a server that manages authentication, user accounts, computer accounts, and access to domain resources.
+I reviewed Organizational Units in Active Directory and created a new OU named <code>Students</code>. 
+This helped me understand how OUs are used to organize users and computers into groups such as departments, teams, or device categories.
 </p>
 
 <br />

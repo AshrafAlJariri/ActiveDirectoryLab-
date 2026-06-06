@@ -38,14 +38,15 @@ Through this lab, I learned about domain controllers, Active Directory users and
 
 <h2>Lab Walk-Through</h2>
 
-<h3 align="center">Step 1: Review Windows Domain Concepts</h3>
+<h3 align="center">Step 1: Review Active Directory Users and Computers</h3>
 
 <p align="center">
-  <img src="YOUR_IMAGE_LINK_HERE" width="80%" alt="Windows domain concepts"/>
+  <img src="YOUR_IMAGE_LINK_HERE" width="80%" alt="Active Directory Users and Computers"/>
 </p>
 
 <p style="background-color:#e8f4ff; padding:12px; border-left:4px solid #2f80ed; border-radius:6px;">
-I learned that a Windows domain is used to centrally manage users, computers, and security policies in an organization.
+I opened Active Directory Users and Computers to review the domain structure. 
+This showed the main containers and organizational units, including users, computers, domain controllers, and department-based OUs.
 </p>
 
 <br />

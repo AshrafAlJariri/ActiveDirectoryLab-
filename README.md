@@ -1,179 +1,170 @@
-<h1>Active Directory Home Lab</h1>
+<h1>Active Directory Basics Lab</h1>
 
 <h2>Description</h2>
 
 <p>
-This project documents the setup of a basic Active Directory home lab using VMware Fusion, Windows Server, and Windows 11. 
-The lab demonstrates basic networking, DNS configuration, and joining a Windows 11 client machine to an Active Directory domain.
+This project documents my learning from an Active Directory basics lab. 
+The lab demonstrates how Windows domains are used to centrally manage users, computers, groups, permissions, and security policies in a business environment.
 </p>
 
-<h2>Technologies Used</h2>
+<p>
+Through this lab, I learned about domain controllers, Active Directory users and computers, organizational units, security groups, delegation, Group Policy, authentication, and domain structures such as trees, forests, and trusts.
+</p>
+
+<h2>Technologies and Concepts Used</h2>
 
 <ul>
   <li><b>Active Directory Domain Services (AD DS)</b></li>
-  <li><b>DNS</b></li>
-  <li><b>Windows Server</b></li>
-  <li><b>Windows 11</b></li>
-</ul>
-
-<h2>Environments Used</h2>
-
-<ul>
-  <li><b>VMware Fusion</b></li>
-  <li><b>Windows Server</b></li>
-  <li><b>Windows 11 Client</b></li>
+  <li><b>Windows Domains</b></li>
+  <li><b>Domain Controllers</b></li>
+  <li><b>Organizational Units (OUs)</b></li>
+  <li><b>Security Groups</b></li>
+  <li><b>Group Policy</b></li>
 </ul>
 
 <h2>Skills Practiced</h2>
 
 <ul>
   <li>Active Directory administration</li>
-  <li>Windows client configuration</li>
-  <li>DNS configuration</li>
-  <li>Networking fundamentals</li>
-  <li>System troubleshooting</li>
-  <li>Domain administration</li>
+  <li>Learning how users and computers are managed in a domain</li>
+  <li>Understanding organizational units and security groups</li>
+  <li>Learning how delegation supports support tasks</li>
+  <li>Understanding how Group Policy applies rules to users and computers</li>
+  <li>Connecting Active Directory concepts to access control</li>
 </ul>
 
 <h2>Lab Walk-Through</h2>
 
-<h3 align="center">Step 1: Start the Lab Environment</h3>
+<h3 align="center">Step 1: Review Windows Domain Concepts</h3>
 
 <p align="center">
-  <img src="https://i.imgur.com/1U3dpbm.png" width="80%" alt="Lab environment started"/>
+  <img src="YOUR_IMAGE_LINK_HERE" width="80%" alt="Windows domain concepts"/>
 </p>
 
 <p style="background-color:#e8f4ff; padding:12px; border-left:4px solid #2f80ed; border-radius:6px;">
-I started the Windows Server and Windows 11 virtual machines in VMware Fusion. 
-The Windows Server machine will act as the domain controller, and the Windows 11 machine will act as the client workstation.
+I learned that a Windows domain is used to centrally manage users, computers, and security policies in an organization.
 </p>
 
 <br />
 
-<h3 align="center">Step 2: Check the Windows 11 Network Settings</h3>
+<h3 align="center">Step 2: Review Domain Controllers</h3>
 
 <p align="center">
-  <img src="https://i.imgur.com/1U3dpbm.png" width="80%" alt="Windows 11 ipconfig output"/>
+  <img src="YOUR_IMAGE_LINK_HERE" width="80%" alt="Domain controller concept"/>
 </p>
 
 <p style="background-color:#e8f4ff; padding:12px; border-left:4px solid #2f80ed; border-radius:6px;">
-I opened Command Prompt and ran <code>ipconfig /all</code> to check the Windows 11 client network settings. 
-The Windows 11 client had the IP address <code>172.16.23.128</code> and the DNS server <code>172.16.23.2</code>.
+I learned that a domain controller is a server that manages authentication, user accounts, computer accounts, and access to domain resources.
 </p>
 
 <br />
 
-<h3 align="center">Step 3: Set the Preferred DNS Server</h3>
+<h3 align="center">Step 3: Review Active Directory Users and Computers</h3>
 
 <p align="center">
-  <img src="https://i.imgur.com/xVuBVaR.png" width="80%" alt="Preferred DNS settings"/>
+  <img src="YOUR_IMAGE_LINK_HERE" width="80%" alt="Active Directory users and computers"/>
 </p>
 
 <p style="background-color:#e8f4ff; padding:12px; border-left:4px solid #2f80ed; border-radius:6px;">
-I opened the Windows 11 Ethernet settings and manually set the Preferred DNS server to <code>172.16.23.2</code>. 
-This allows the Windows 11 client to use the correct DNS server before joining the Active Directory domain.
+I reviewed how Active Directory stores and organizes users, computers, groups, and other domain objects.
 </p>
 
 <br />
 
-<h3 align="center">Step 4: Test Connection to the Domain Controller</h3>
+<h3 align="center">Step 4: Review Organizational Units</h3>
 
 <p align="center">
-  <img src="YOUR_IMAGE_LINK_HERE" width="80%" alt="Ping test to domain controller"/>
+  <img src="YOUR_IMAGE_LINK_HERE" width="80%" alt="Organizational units in Active Directory"/>
 </p>
 
 <p style="background-color:#e8f4ff; padding:12px; border-left:4px solid #2f80ed; border-radius:6px;">
-I used the <code>ping</code> command to test if the Windows 11 client could communicate with the domain controller. 
-This confirmed that the client and server were able to communicate on the network.
+I learned that Organizational Units are used to organize users and computers into groups such as departments, teams, or device categories.
 </p>
 
 <br />
 
-<h3 align="center">Step 5: Open Domain Join Settings</h3>
+<h3 align="center">Step 5: Review Security Groups</h3>
 
 <p align="center">
-  <img src="YOUR_IMAGE_LINK_HERE" width="80%" alt="Domain join settings"/>
+  <img src="YOUR_IMAGE_LINK_HERE" width="80%" alt="Active Directory security groups"/>
 </p>
 
 <p style="background-color:#e8f4ff; padding:12px; border-left:4px solid #2f80ed; border-radius:6px;">
-I opened the Windows system settings to prepare the Windows 11 client to join the Active Directory domain.
+I learned that security groups help administrators assign permissions to multiple users at once instead of managing permissions one user at a time.
 </p>
 
 <br />
 
-<h3 align="center">Step 6: Join the Windows 11 Client to the Domain</h3>
+<h3 align="center">Step 6: Review Delegation</h3>
 
 <p align="center">
-  <img src="YOUR_IMAGE_LINK_HERE" width="80%" alt="Join Windows 11 to domain"/>
+  <img src="YOUR_IMAGE_LINK_HERE" width="80%" alt="Active Directory delegation"/>
 </p>
 
 <p style="background-color:#e8f4ff; padding:12px; border-left:4px solid #2f80ed; border-radius:6px;">
-I entered the domain name and joined the Windows 11 client to the Active Directory domain using domain administrator credentials.
+I learned that delegation allows certain users or teams to perform limited administrative tasks, such as resetting passwords, without giving them full administrator access.
 </p>
 
 <br />
 
-<h3 align="center">Step 7: Restart the Windows 11 Client</h3>
+<h3 align="center">Step 7: Review Group Policy</h3>
 
 <p align="center">
-  <img src="YOUR_IMAGE_LINK_HERE" width="80%" alt="Restart Windows 11 client"/>
+  <img src="YOUR_IMAGE_LINK_HERE" width="80%" alt="Group Policy"/>
 </p>
 
 <p style="background-color:#e8f4ff; padding:12px; border-left:4px solid #2f80ed; border-radius:6px;">
-After joining the domain, I restarted the Windows 11 client so the domain changes could take effect.
+I learned that Group Policy can be used to apply rules, security settings, and configurations to users and computers in a domain.
 </p>
 
 <br />
 
-<h3 align="center">Step 8: Log In With a Domain Account</h3>
+<h3 align="center">Step 8: Review Authentication Concepts</h3>
 
 <p align="center">
-  <img src="YOUR_IMAGE_LINK_HERE" width="80%" alt="Domain account login"/>
+  <img src="YOUR_IMAGE_LINK_HERE" width="80%" alt="Authentication concepts"/>
 </p>
 
 <p style="background-color:#e8f4ff; padding:12px; border-left:4px solid #2f80ed; border-radius:6px;">
-After the restart, I logged in to the Windows 11 client using a domain user account.
+I reviewed how authentication works in a Windows domain and how users prove their identity before accessing domain resources.
 </p>
 
 <br />
 
-<h3 align="center">Step 9: Verify the Computer in Active Directory</h3>
+<h3 align="center">Step 9: Review Trees, Forests, and Trusts</h3>
 
 <p align="center">
-  <img src="YOUR_IMAGE_LINK_HERE" width="80%" alt="Computer object in Active Directory"/>
+  <img src="YOUR_IMAGE_LINK_HERE" width="80%" alt="Trees forests and trusts"/>
 </p>
 
 <p style="background-color:#e8f4ff; padding:12px; border-left:4px solid #2f80ed; border-radius:6px;">
-I opened Active Directory Users and Computers on the domain controller and confirmed that the Windows 11 client appeared as a computer object in the domain.
+I learned that larger Active Directory environments can use trees, forests, and trusts to connect multiple domains together.
 </p>
 
 <br />
 
-<h2>Help Desk Skills Demonstrated</h2>
+<h2>Skills Demonstrated</h2>
 
 <ul>
-  <li>Checked Windows network configuration</li>
-  <li>Configured DNS settings</li>
-  <li>Tested network connectivity</li>
-  <li>Joined a Windows client to a domain</li>
-  <li>Verified domain login</li>
-  <li>Troubleshot basic client-to-server communication</li>
-</ul>
-
-<h2>GRC Concepts Demonstrated</h2>
-
-<ul>
-  <li>Centralized identity management</li>
-  <li>Access control</li>
-  <li>Endpoint management</li>
-  <li>Device inventory</li>
-  <li>Policy enforcement through domain membership</li>
+  <li>Understanding user and computer accounts</li>
+  <li>Understanding Windows domain environments</li>
+  <li>Reviewing basic account management</li>
+  <li>Learning how devices are organized in Active Directory</li>
+  <li>Understanding password reset delegation</li>
+  <li>Understanding centralized identity management</li>
+  <li>Understanding access control</li>
+  <li>Understanding least privilege</li>
+  <li>Understanding security policy enforcement</li>
+  <li>Understanding auditability of users and devices</li>
 </ul>
 
 <h2>Lessons Learned</h2>
 
 <p>
-This lab helped me understand how Windows client machines connect to an Active Directory domain. 
-I learned that DNS is important for domain joining because the client needs to find the domain controller. 
-I also practiced basic troubleshooting skills by checking IP settings, DNS settings, and network connectivity.
+This lab helped me understand how Active Directory is used to manage users, computers, permissions, and policies in a business environment. 
+I learned the purpose of domain controllers, organizational units, security groups, delegation, Group Policy, authentication, trees, forests, and trusts.
+</p>
+
+<p>
+This project helped me connect technical Active Directory skills to real-world identity management, access control, least privilege, centralized administration, and policy enforcement.
 </p>

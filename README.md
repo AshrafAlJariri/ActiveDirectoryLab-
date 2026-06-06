@@ -295,14 +295,105 @@ I verified that the minimum password length setting was updated from <code>7 cha
 
 <br />
 
-<h3 align="center">Step 9: Review Trees, Forests, and Trusts</h3>
+<h3 align="center">Step 9: Create and Apply Group Policies</h3>
 
 <p align="center">
-  <img src="YOUR_IMAGE_LINK_HERE" width="80%" alt="Trees forests and trusts"/>
+  <img src="https://i.imgur.com/uiaYjXj.png" width="80%" alt="Create Restrict Control Panel Access GPO"/>
 </p>
 
 <p style="background-color:#e8f4ff; padding:12px; border-left:4px solid #2f80ed; border-radius:6px;">
-I learned that larger Active Directory environments can use trees, forests, and trusts to connect multiple domains together.
+I created a new Group Policy Object named <code>Restrict Control Panel Access</code>. 
+This policy will be used to limit access to Control Panel and PC settings for selected users.
+</p>
+
+<br />
+
+<p align="center">
+  <img src="https://i.imgur.com/UnoCqTx.png" width="80%" alt="Open Control Panel policy setting"/>
+</p>
+
+<p style="background-color:#e8f4ff; padding:12px; border-left:4px solid #2f80ed; border-radius:6px;">
+I opened the Group Policy Management Editor and located the setting for <code>Prohibit access to Control Panel and PC settings</code>.
+</p>
+
+<br />
+
+<p align="center">
+  <img src="https://i.imgur.com/6bRLk1c.png" width="80%" alt="Enable Control Panel restriction"/>
+</p>
+
+<p style="background-color:#e8f4ff; padding:12px; border-left:4px solid #2f80ed; border-radius:6px;">
+I enabled the policy setting to block users from opening Control Panel and PC settings.
+</p>
+
+<br />
+
+<p align="center">
+  <img src="https://i.imgur.com/qH75MO0.png" width="80%" alt="Verify Control Panel policy enabled"/>
+</p>
+
+<p style="background-color:#e8f4ff; padding:12px; border-left:4px solid #2f80ed; border-radius:6px;">
+I verified that the Control Panel restriction policy was enabled in the Group Policy Management Editor.
+</p>
+
+<br />
+
+<p align="center">
+  <img src="https://i.imgur.com/ac0Gi7O.png" width="80%" alt="Link Control Panel GPO to Organizational Units"/>
+</p>
+
+<p style="background-color:#e8f4ff; padding:12px; border-left:4px solid #2f80ed; border-radius:6px;">
+I linked the <code>Restrict Control Panel Access</code> policy to selected Organizational Units so the setting would apply to users in those OUs.
+</p>
+
+<br />
+
+<p align="center">
+  <img src="https://i.imgur.com/JWbmKNr.png" width="80%" alt="Confirm GPO linked to Management OU"/>
+</p>
+
+<p style="background-color:#e8f4ff; padding:12px; border-left:4px solid #2f80ed; border-radius:6px;">
+I confirmed that the Group Policy Object was linked to the <code>Management</code> OU.
+</p>
+
+<br />
+
+<p align="center">
+  <img src="https://i.imgur.com/nl7Brr8.png" width="80%" alt="Create Auto Lock Screen GPO"/>
+</p>
+
+<p style="background-color:#e8f4ff; padding:12px; border-left:4px solid #2f80ed; border-radius:6px;">
+I created another Group Policy Object named <code>Auto Lock Screen</code> to configure automatic workstation locking.
+</p>
+
+<br />
+
+<p align="center">
+  <img src="https://i.imgur.com/rNxLFdN.png" width="80%" alt="Open machine inactivity limit policy"/>
+</p>
+
+<p style="background-color:#e8f4ff; padding:12px; border-left:4px solid #2f80ed; border-radius:6px;">
+I located the <code>Interactive logon: Machine inactivity limit</code> policy setting in the Group Policy Management Editor.
+</p>
+
+<br />
+
+<p align="center">
+  <img src="https://i.imgur.com/XKSyH9a.png" width="80%" alt="Set machine inactivity limit"/>
+</p>
+
+<p style="background-color:#e8f4ff; padding:12px; border-left:4px solid #2f80ed; border-radius:6px;">
+I enabled the machine inactivity limit and set the workstation to lock after <code>300</code> seconds of inactivity.
+</p>
+
+<br />
+
+<p align="center">
+  <img src="https://i.imgur.com/u0iZGAu.png" width="80%" alt="Control Panel access restricted"/>
+</p>
+
+<p style="background-color:#e8f4ff; padding:12px; border-left:4px solid #2f80ed; border-radius:6px;">
+I tested the policy on a workstation and confirmed that access to Control Panel and PC settings was blocked by policy.
 </p>
 
 <br />

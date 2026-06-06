@@ -210,14 +210,45 @@ This confirmed that the delegated password reset permissions worked correctly.
 </p>
 
 <br />
-<h3 align="center">Step 7: Review Group Policy</h3>
+<h3 align="center">Step 7: Organize Computer Objects into a Workstations OU</h3>
 
 <p align="center">
-  <img src="YOUR_IMAGE_LINK_HERE" width="80%" alt="Group Policy"/>
+  <img src="https://i.imgur.com/L7zkEEQ.png" width="80%" alt="Create new Organizational Unit"/>
 </p>
 
 <p style="background-color:#e8f4ff; padding:12px; border-left:4px solid #2f80ed; border-radius:6px;">
-I learned that Group Policy can be used to apply rules, security settings, and configurations to users and computers in a domain.
+I created a new Organizational Unit named <code>Workstations</code> to organize computer objects in Active Directory.
+</p>
+
+<br />
+
+<p align="center">
+  <img src="https://i.imgur.com/VHNcl1M.png" width="80%" alt="Create Workstations Organizational Unit"/>
+</p>
+
+<p style="background-color:#e8f4ff; padding:12px; border-left:4px solid #2f80ed; border-radius:6px;">
+I confirmed the creation of the <code>Workstations</code> OU. This OU will be used to separate workstation computer accounts from the default Computers container.
+</p>
+
+<br />
+
+<p align="center">
+  <img src="https://i.imgur.com/KcGTjyI.png" width="80%" alt="Move computer objects to Workstations OU"/>
+</p>
+
+<p style="background-color:#e8f4ff; padding:12px; border-left:4px solid #2f80ed; border-radius:6px;">
+I selected the workstation computer objects and moved them into the new <code>Workstations</code> OU. 
+This helps keep computer accounts organized and makes it easier to apply policies to specific device groups.
+</p>
+
+<br />
+
+<p align="center">
+  <img src="https://i.imgur.com/KcGTjyI.png" width="80%" alt="Workstations OU with computer objects"/>
+</p>
+
+<p style="background-color:#e8f4ff; padding:12px; border-left:4px solid #2f80ed; border-radius:6px;">
+I verified that the workstation computer objects were successfully placed inside the <code>Workstations</code> OU.
 </p>
 
 <br />

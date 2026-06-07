@@ -3,12 +3,7 @@
 <h2>Description</h2>
 
 <p>
-This project documents my learning from an Active Directory lab. 
-The lab demonstrates how Windows domains are used to centrally manage users, computers, groups, permissions, and security policies in a business environment.
-</p>
-
-<p>
-Through this lab, I learned about domain controllers, Active Directory users and computers, organizational units, security groups, delegation, Group Policy, authentication, and domain structures such as trees, forests, and trusts.
+This project documents my hands-on experience building and managing a Windows Active Directory lab in a Windows Server environment. It demonstrates foundational skills in Active Directory user and computer management, Organizational Units (OUs), Group Policy Objects (GPOs), delegation of administrative tasks, and core network services such as DNS and DHCP. Through this lab, I gained practical insight into enterprise account management, system administration, and network infrastructure, making it highly relevant to IT support, system administration, and cybersecurity roles.
 </p>
 
 <h2>Technologies Used</h2>

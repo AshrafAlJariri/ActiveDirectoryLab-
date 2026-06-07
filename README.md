@@ -22,15 +22,14 @@ administration roles.
 - Windows Server (Domain Controller)
 - Windows Client
   
- <h2>Concepts Used</h2>
-<ul>
-  <li><b>Active Directory Domain Services</b></li>
-  <li><b>Windows Domain</b></li>
-  <li><b>Organizational Units</b></li>
-  <li><b>Group Policy</b></li>
-  <li><b>Delegation of Control</b></li>
-  <li><b>Password Policy</b></li>
-</ul>
+## Concepts Used
+  - Active Directory Domain Services
+  - Windows Domain
+  - Organizational Units
+  - Group Policy
+  - Delegation of Control
+  - Password Policy
+
 
 <h2>Skills Practiced</h2>
 

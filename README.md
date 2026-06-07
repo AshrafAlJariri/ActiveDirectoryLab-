@@ -10,13 +10,12 @@ provides crucial insight into enterprise network infrastructure and account mana
 administration roles.
 </p>
 
-<h2>Languages and Utilities Used</h2>
-<ul>
-<li><b>Remote Desktop Protocol</b></li>
-<li><b>Active Directory Users and Computers</b></li>
-<li><b>Group Policy Management Editor</b></li>
-<li><b>Command Prompt</b></li>
- </ul>
+## Languages and Utilities Used
+
+- Remote Desktop Protocol
+- Active Directory Users and Computers
+- Group Policy Management Editor
+- Command Prompt
 
 ## Environments Used
 

@@ -3,14 +3,26 @@
 <h2>Description</h2>
 
 <p>
-This project documents my hands-on experience building and managing a Windows Active Directory lab in a Windows Server environment. It demonstrates foundational skills in Active Directory user and computer management, Organizational Units (OUs), Group Policy Objects (GPOs), delegation of administrative tasks, and core network services such as DNS and DHCP. Through this lab, I gained practical insight into enterprise account management, system administration, and network infrastructure, making it highly relevant to IT support, system administration, and cybersecurity roles.
+This project documents my practical engagement with Microsoft Active Directory and Windows Server environment
+TryHackMe Windows and Active Directory room. It demonstrates foundational skills in Active Directory user an
+understanding Group Policy Objects (GPOs), network services (DNS, DHCP), and common Windows Server ad
+provides crucial insight into enterprise network infrastructure and account management, highly relevant for IT
+administration roles.
 </p>
 
-<h2>Technologies Used</h2>
+<h2>Languages and Utilities Used</h2>
 <ul>
-<li><b>Virtual Window Machine</b></li>
+<li><b>Remote Desktop Protocol</b></li>
+<li><b>Active Directory Users and Computers</b></li>
+<li><b>Group Policy Management Editor</b></li>
+<li><b>Command Prompt</b></li>
  </ul>
 
+## Environments Used
+
+- Windows Server (Domain Controller)
+- Windows Client
+  
  <h2>Concepts Used</h2>
 <ul>
   <li><b>Active Directory Domain Services</b></li>
